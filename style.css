@@ -1,0 +1,45 @@
+html{
+    font-family: 'Overpass', sans-serif;
+    font-size:93.75%;
+    color:hsl(217, 12%, 63%);
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border-style:none;
+    background-color:hsl(213, 19%, 18%);
+    color:hsl(216, 12%, 54%);
+}
+
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px 25px 30px 25px;
+    border-radius: 15px;
+    background-image: linear-gradient( hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+}
+
+.star{
+   background-color:hsl(213, 19%, 18%) ; 
+   border:solid 1px hsl(213, 19%, 18%);
+   border-radius: 100%;
+   padding:15px;
+   align-self: flex-start;
+}
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    width: 280px;
+    height:50px;
+    border-radius:30px
+}
