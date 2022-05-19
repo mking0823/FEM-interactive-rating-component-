@@ -2,13 +2,15 @@ html{
     font-family: 'Overpass', sans-serif;
     font-size:93.75%;
     color:hsl(217, 12%, 63%);
-    
+    height:100vh;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    height: 100vh;
+
 }
 
 button{
@@ -25,6 +27,7 @@ button{
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding:25px 25px 30px 25px;
     border-radius: 15px;
     background-image: linear-gradient( hsl(213, 19%, 18%), hsl(216, 12%, 8%));
@@ -42,4 +45,10 @@ button{
     width: 280px;
     height:50px;
     border-radius:30px
+}
+.modal{
+ display:none;
+   /* z-index:top;*/
+height: 100vh;
+width: 100vh;
 }
